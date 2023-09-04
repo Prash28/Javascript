@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Open Sans;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+#colorPickerContainer {
+    height: 100vh;
+}
+
+.bgcolor-section {
+    margin: 5px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#buttonContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 75px;
+    width: 100%;
+    margin: 2px;
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+#button1 {
+    background-color: #e0e0e0;
+}
+
+#button2 {
+    background-color: #6fcf97;
+}
+
+#button3 {
+    background-color: #56ccf2;
+}
+
+#button4 {
+    background-color: #bb6bd9;
+}
